@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>This Is My HTML Page.</h2>
+    <form>
+        <b>Name:</b> <input id="name" type="My Name" required>
+        <br>
+        <br>
+        <b>D.O.B:</b> <input type="My D.O.B">
+        <br>
+        <br>
+        <b>Role:</b> <input type="My Role">
+        <br>
+        <br>
+        <b>Company:</b> <input type="company name" name="my company name">
+        <br>
+        <br>
+        <b>Email:</b> <input type="Email" name="my email">
+        <br>
+        <br>
+        <b>Adress:</b> <input type="Adress" name="my adress">
+        <br>
+        <br>
+        <b>Number:</b> <input type="number" name="my number">
+        <br>
+        <br>
+        <b>Are You Eligable:</b> <input type="checkbox" name="my eligability">
+        <br>
+        <br>
+        <b>Gender:</b> Male <input type="radio" name="my gender">
+        <br>
+        <br>
+        <b>Tell About Yourself:</b> <br> <textarea name="my self" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <b>Submit</b> <input type="Submit" onclick="amir()" value="Submit Now">
+        <b>Reset</b> <input type="Reset" value="Reset Now">
+    </form>
+
+
+<script>
+
+
+    console.log("raza")
+
+    function amir(){
+        
+        name=document.getElementById('name').value;
+        
+        if(name==""){
+            alert("please fill name field")
+        }
+        
+
+    }
+    
+
+
+
+</script>
+
+</body>
+
+</html>
